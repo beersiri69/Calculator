@@ -2,7 +2,7 @@
 
 Hello welcome my calculator!
 ===================
-Hey! This is calculator applicaion!!
+Hey! This is calculator application!!
 
 ----------
 
