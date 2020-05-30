@@ -1,0 +1,35 @@
+.button,.result{
+    font-size: 1.2em;
+    background-color: #4CAF50; /* Green */
+    margin: 0.1em;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+    cursor: pointer;
+    width:  5.9em;
+    height: 5.9em;
+    
+  }
+
+.button:hover{
+    background-color: #1C1F50;
+}
+.button:focus,.result:focus {
+    outline:0;
+}
+
+.result{
+    background-color: rgb(142, 189, 144);
+    width:  24.3em;
+    
+}
+.result:hover{
+    background-color: rgb(142, 189, 144);
+    width:  24.3em;
+    cursor:context-menu;
+    
+}
