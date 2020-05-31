@@ -18,7 +18,7 @@ display = document.getElementById("Displaytxt");
 
 /* --------------------------------- Display -------------------------------- */
 
-function Checkdisplay(){
+function Inputdisplay(){
     if(display.innerHTML !== "Welcome"){    
         shw += input     
     }
@@ -34,7 +34,7 @@ function Checkdisplay(){
 /* -------------------------------------------------------------------------- */
 
 
-/* --------------------------------- 9Digit --------------------------------- */
+/* --------------------------------- 9 Digit -------------------------------- */
 
 for (var i=0;i<9;i++){
     id = i+1;    
@@ -43,12 +43,26 @@ for (var i=0;i<9;i++){
     btn[i].addEventListener("click",function(){
         input = this.innerHTML;
         console.log("input:"+input)
-        Checkdisplay();
+        Inputdisplay();
     });
 }
 
+/* --------------------------------- Clr Btn -------------------------------- */
 
-
-
+Clrbtn = document.getElementById("clr")
+Clrbtn.addEventListener("click",function(){
+    console.log("Clr")
+    setTimeout(function () {
+        console.log("asd")
+        display.style.color ="#F8F1C6"
+        display.innerHTML = "Welcome"
+        
+        
+    }, 800);  
+    display.style.color ="#BF3D56"
+    display.innerHTML = "Clr"
+    
+    
+});
 
 
