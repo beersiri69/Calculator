@@ -1,9 +1,14 @@
+body{
+    background-color: rgba(59, 95, 87, 0.836);
+    font-family: 'Joti One';
+}
+
 .button,.result{
     font-size: 1.2em;
-    background-color: #4CAF50; /* Green */
+    background-color: #8FD1B7; /* Green */
     margin: 0.1em;
     border: none;
-    color: white;
+    color: #F8F1C6;
     padding: 20px;
     text-align: center;
     text-decoration: none;
@@ -12,25 +17,41 @@
     cursor: pointer;
     width:  5.9em;
     height: 5.9em;
+    font-weight: bold;
     
   }
 
 .button:hover{
-    background-color: #1C1F50;
+    background-color: #63AC9D;
 }
 .button:focus,.result:focus {
     outline:0;
 }
 
 .result{
-    background-color: rgb(142, 189, 144);
+    background-color: #63AC9D;
     width:  24.3em;
     text-align: right;
     
 }
 .result:hover{
-    background-color: rgb(142, 189, 144);
+    background-color: #63AC9D;
     width:  24.3em;
     cursor:context-menu;
     
+}
+
+.Chead h1{
+    color: #F8F1C6;
+    margin: 0 auto;
+    font-size: 3em;
+    text-align: center;
+}
+.Chead{
+    background-color: #3B5F57;   
+    margin-bottom: 0.5em;
+}
+
+#clr{
+    color: #CB6B3B;
 }
