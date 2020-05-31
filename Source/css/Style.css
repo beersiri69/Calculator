@@ -27,6 +27,10 @@ body{
 .button:focus,.result:focus {
     outline:0;
 }
+.disbtn:hover{
+    cursor:wait;
+    background-color: #8FD1B7;
+}
 
 .result{
     background-color: #63AC9D;
