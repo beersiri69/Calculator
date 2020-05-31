@@ -25,6 +25,7 @@
 .result{
     background-color: rgb(142, 189, 144);
     width:  24.3em;
+    text-align: right;
     
 }
 .result:hover{
