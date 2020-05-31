@@ -16,3 +16,6 @@ This is overall of the function of my calculator
 #### <i class="icon-file"></i> Additive
 this feature use for additive with two number by press " + " button
 
+#### <i class="icon-file"></i> Subtraction
+this feature use for Subtraction with two number by press " - " button
+
